@@ -1,11 +1,15 @@
-// Firebase Console > Project settings > Your apps থেকে Web config বসান।
+// Firebase Console > Project settings > Your apps > Web app config
+// Firebase web API key is a client identifier, not a server secret.
+// Enforce access control with Firestore/Storage Security Rules.
 export const firebaseConfig = {
-  apiKey: "PASTE_API_KEY",
-  authDomain: "PASTE_PROJECT_ID.firebaseapp.com",
-  projectId: "PASTE_PROJECT_ID",
-  storageBucket: "PASTE_PROJECT_ID.appspot.com",
-  messagingSenderId: "PASTE_SENDER_ID",
-  appId: "PASTE_APP_ID"
+  apiKey: "AIzaSyApzxH1RVIBwqHx3_RCNux715QInpiFIX8",
+  authDomain: "tr-safin-chart.firebaseapp.com",
+  projectId: "tr-safin-chart",
+  storageBucket: "tr-safin-chart.firebasestorage.app",
+  messagingSenderId: "324305657940",
+  appId: "1:324305657940:web:bb5d05929de8aa99c00dc1",
+  measurementId: "G-3HPP253Z70"
 };
-// প্রথমবার নিজের অ্যাকাউন্ট তৈরি করে Firebase Authentication থেকে UID কপি করে এখানে বসান।
+// After creating your account, copy its Firebase Authentication UID here.
+// Do not use an email address or password in this setting.
 export const OWNER_UID = "PASTE_OWNER_UID";
