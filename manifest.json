@@ -1,0 +1,8 @@
+{
+  "name": "TR SAFIN CHAT",
+  "short_name": "TR SAFIN",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#e9edef",
+  "theme_color": "#075e54"
+}
